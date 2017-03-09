@@ -30,36 +30,43 @@ function hideAll(){
 }
 
 function showAbout(){
+  closeNav();
   hideAll();
   document.getElementById("about").style.display ="block";
 }
 
 function showInitiatives(){
+  closeNav();
   hideAll();
   document.getElementById("initiatives").style.display ="block";
 }
 
 function showEBoard(){
+  closeNav();
   hideAll();
   document.getElementById("eboard").style.display ="block";
 }
 
 function showPartners(){
+  closeNav();
   hideAll();
   document.getElementById("partners").style.display ="block";
 }
 
 function showMembers(){
+  closeNav();
   hideAll();
   document.getElementById("members").style.display ="block";
 }
 
 function showNewsletter(){
+  closeNav();
   hideAll();
   document.getElementById("newsletter").style.display ="block";
 }
 
 function showContact(){
+  closeNav();
   hideAll();
   document.getElementById("contact").style.display ="block";
 }

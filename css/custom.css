@@ -100,7 +100,7 @@ body {
   z-index: 100;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.80);
+  background: rgba(0,0,0,0.90);
   overflow-x: hidden;
   transition: 0.2s;
   padding-top: 60px;
