@@ -18,6 +18,54 @@ function closeNav() {
   document.getElementById("navbars").style.display ="block";
 }
 
+function hideAll(){
+  document.getElementById("landing").style.display ="none";
+  document.getElementById("about").style.display ="none";
+  document.getElementById("initiatives").style.display ="none";
+  document.getElementById("eboard").style.display ="none";
+  document.getElementById("partners").style.display ="none";
+  document.getElementById("members").style.display ="none";
+  document.getElementById("newsletter").style.display ="none";
+  document.getElementById("contact").style.display ="none";
+}
+
+function showAbout(){
+  hideAll();
+  document.getElementById("about").style.display ="block";
+}
+
+function showInitiatives(){
+  hideAll();
+  document.getElementById("initiatives").style.display ="block";
+}
+
+function showEBoard(){
+  hideAll();
+  document.getElementById("eboard").style.display ="block";
+}
+
+function showPartners(){
+  hideAll();
+  document.getElementById("partners").style.display ="block";
+}
+
+function showMembers(){
+  hideAll();
+  document.getElementById("members").style.display ="block";
+}
+
+function showNewsletter(){
+  hideAll();
+  document.getElementById("newsletter").style.display ="block";
+}
+
+function showContact(){
+  hideAll();
+  document.getElementById("contact").style.display ="block";
+}
+
+
+
 $(window).load(function() {
   setTimeout(function(){
     // Animate loader off screen

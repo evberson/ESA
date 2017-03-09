@@ -30,10 +30,11 @@ footer .socialicon {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .ESA {
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
   z-index: 0;
   color: #FFF;
@@ -54,23 +55,45 @@ body {
   font-size: 3vw;
 }
 
-#content {
-  display:none;
+#main-content {
   position: fixed;
-  width: 50%; /* Set your desired with */
+  width: 70%; /* Set your desired with */
   z-index: 2; /* Make sure its above other items. */
-  height: 25%;
-  top: 50%;
+  height: 75%;
+  top: 30%;
   left: 50%;
   margin-top: -10%; /* Changes with height. */
-  margin-left: -25%; /* Your width divided by 2. */
+  margin-left: -35%; /* Your width divided by 2. */
   /* You will not need the below, its only for styling   purposes. */
   padding: 10px;
-  background: rgba(0,0,0,0.80);
   text-align: center;
 }
 
+.subcontent {
+  background: rgba(255,255,255,0.90);
+  border-radius: 10px;
+}
+
+.subcontent h1 {
+  font-family: 'Permanent Marker', cursive;
+  padding-top: 10px;
+  color: #FFF;
+  -webkit-filter: drop-shadow(3px 3px 10px #000);
+  text-shadow: 0px 0px 6px #000;
+  font-size: 4em;
+  border-bottom: rgba(0,255,255,0.90);
+}
+
+.subcontent .innercontent{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  color: #000;
+  font-size: 1.15em;
+}
+
 .sidenav {
+  font-family: 'Permanent Marker', cursive;
   height: 100%;
   width: 0;
   position: fixed;
@@ -112,6 +135,10 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+#about, #initiatives, #eboard, #partners, #members, #newsletter, #contact {
+  display: none;
 }
 
 
