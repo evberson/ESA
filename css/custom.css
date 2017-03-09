@@ -1,0 +1,129 @@
+#navbars {
+  text-shadow: 0px 0px 3px #000;
+  font-size: 4em;
+  cursor: pointer;
+  padding-left: 20px;
+  color: #fff;
+  transition: 0.3s;
+  display:block;
+}
+
+#footer {
+  padding-top: 30px;
+}
+
+#footer .copyright {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+footer .socialicon {
+  width: 64px;
+  height: 64px;
+  drop-shadow: 0px 0px 3px #fff;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.ESA {
+  text-align: center;
+  z-index: 0;
+  color: #FFF;
+  -webkit-filter: drop-shadow(3px 3px 10px #000);
+  text-shadow: 0px 0px 6px #000;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+
+  padding: 10px;
+}
+
+.main {
+  font-size: 16vw;
+}
+
+.sub {
+  font-size: 3vw;
+}
+
+#content {
+  display:none;
+  position: fixed;
+  width: 50%; /* Set your desired with */
+  z-index: 2; /* Make sure its above other items. */
+  height: 25%;
+  top: 50%;
+  left: 50%;
+  margin-top: -10%; /* Changes with height. */
+  margin-left: -25%; /* Your width divided by 2. */
+  /* You will not need the below, its only for styling   purposes. */
+  padding: 10px;
+  background: rgba(0,0,0,0.80);
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.80);
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 0px 0px 32px;
+  text-decoration: none;
+  font-size: 26px;
+  color: #818181;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('') no-repeat center center #000;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;*/
+}
