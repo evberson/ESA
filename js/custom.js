@@ -9,19 +9,19 @@ function loadBackground() {
 }
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("navbars").style.display ="none";
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("navbars").style.display ="none";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("navbars").style.display ="block";
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("navbars").style.display ="block";
 }
 
 $(window).load(function() {
-   setTimeout(function(){
-        // Animate loader off screen
-        $(".se-pre-con").fadeOut("fast");
-        $("body").removeClass("preload");
-      }, 1);
-    });
+  setTimeout(function(){
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("fast");
+    $("body").removeClass("preload");
+  }, 1);
+});
