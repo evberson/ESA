@@ -139,10 +139,12 @@ body {
   }
 }
 
+/* Initially hide all section divs */
 #about, #initiatives, #eboard, #partners, #members, #newsletter, #contact {
   display: none;
 }
 
+/* Loading screen settings */
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -152,7 +154,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('') no-repeat center center #000;
+  background: url('') no-repeat center center #000; /* Could add ESA logo if we want */
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
