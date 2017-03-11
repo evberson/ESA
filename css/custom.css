@@ -1,12 +1,19 @@
 #navbars {
-  text-shadow: 0px 0px 3px #000;
+  font-family: 'Permanent Marker', cursive;
+  -webkit-filter: drop-shadow(0px 0px 4px #000);
   font-size: 4em;
   cursor: pointer;
   padding-left: 20px;
   color: #fff;
   transition: 0.3s;
   display:block;
-  opacity: 0.75;
+  opacity: 0.8;
+}
+
+#logo {
+  opacity: 0.85;
+  height: 100%;
+  -webkit-filter: drop-shadow(0px 0px 5px #fff);
 }
 
 #footer {
@@ -35,24 +42,17 @@ body {
 
 .ESA {
   font-family: 'Permanent Marker', cursive;
-  text-align: center;
-  z-index: 0;
-  color: #FFF;
-  -webkit-filter: drop-shadow(3px 3px 10px #000);
-  opacity: 0.75;
-  text-shadow: 0px 0px 6px #000;
   position: fixed;
-  top: 33%;
-  left: 33%;
+  width: 70%; /* Set your desired with */
+  z-index: 2; /* Make sure its above other items. */
+  height: 50%;
+  top: 30%;
+  left: 50%;
+  margin-top: 0%; /* Changes with height. */
+  margin-left: -35%; /* Your width divided by 2. */
+  /* You will not need the below, its only for styling   purposes. */
   padding: 10px;
-}
-
-.main {
-  font-size: 16vw;
-}
-
-.sub {
-  font-size: 3vw;
+  text-align: right;
 }
 
 #main-content {
@@ -142,7 +142,6 @@ body {
 #about, #initiatives, #eboard, #partners, #members, #newsletter, #contact {
   display: none;
 }
-
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
