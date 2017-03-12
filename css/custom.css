@@ -70,8 +70,11 @@ body {
 }
 
 .subcontent {
+  height: 100%;
+  width: 100%;
   background: rgba(255,255,255,0.90);
-  border-radius: 10px;
+  border-radius: 1px;
+  overflow:auto;
 }
 
 .subcontent h1 {
