@@ -37,7 +37,7 @@ function hideAll(){
 function showHome(){
   closeNav();
   hideAll();
-  document.getElementById("landing").style.opacity = .9;
+  document.getElementById("landing").style.opacity = 1;
 }
 
 //Shows only the about div
