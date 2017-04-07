@@ -14,7 +14,7 @@
   <!-- Page title -->
   <title>USC ESA</title>
   <link href="css/custom.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Source+Sans+Pro:600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla|Source+Sans+Pro:600" rel="stylesheet">
   <script src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -31,19 +31,20 @@
   <!-- MAIN MENU AND LANDING PAGE -->
   <div id="navbars" class="nav" onclick="openNav()">&#9776; Act</div>
   <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a onclick="showAbout();" href="#">About</a>
-    <a onclick="showInitiatives();" href="#">Initiatives</a>
-    <a onclick="showEBoard();" href="#">Executive Board</a>
-    <a onclick="showPartners();" href="#">Partners</a>
-    <a onclick="showMembers();" href="#">Member Organizations</a>
-    <a onclick="showNewsletter();" href="#">Newsletter</a>
-    <a onclick="showContact();" href="#">Contact</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+    <a class="blocked" onclick="showHome();" href="#">Home</a>
+    <a class="blocked" onclick="showAbout();" href="#">About</a>
+    <a class="blocked" onclick="showInitiatives();" href="#">Initiatives</a>
+    <a class="blocked" onclick="showEBoard();" href="#">Executive Board</a>
+    <a class="blocked" onclick="showPartners();" href="#">Partners</a>
+    <a class="blocked" onclick="showMembers();" href="#">Member Organizations</a>
+    <a class="blocked" onclick="showNewsletter();" href="#">Newsletter</a>
+    <a class="blocked" onclick="showContact();" href="#">Contact</a>
     <footer id="footer">
-      <div class="row">
-        <a onclick="closeNav();" target="_blank" href="https://www.facebook.com/uscesa/"><img class="socialicon" src="images/icons/facebook.png"></img></a>
-        <a onclick="closeNav();" target="_blank" href="https://www.instagram.com/uscesa/"><img class="socialicon" src="images/icons/instagram.png"></img></a>
-        <a onclick="closeNav();" target="_blank" href="https://twitter.com/uscesa/"><img class="socialicon" src="images/icons/twitter.png"></img></a>
+      <div class="padleft row">
+        <a class="sbs" onclick="closeNav();" target="_blank" href="https://www.facebook.com/uscesa/"><img class="socialicon" src="images/icons/facebook.png"></img></a>
+        <a class="sbs" onclick="closeNav();" target="_blank" href="https://www.instagram.com/uscesa/"><img class="socialicon" src="images/icons/instagram.png"></img></a>
+        <a class="sbs" onclick="closeNav();" target="_blank" href="https://twitter.com/uscesa/"><img class="socialicon" src="images/icons/twitter.png"></img></a>
       </div>
       <div class="copyright">
         Copyright &copy; 2017 ESA

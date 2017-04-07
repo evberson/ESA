@@ -1,5 +1,5 @@
 #navbars {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
   -webkit-filter: drop-shadow(0px 0px 4px #000);
   font-size: 4em;
   cursor: pointer;
@@ -11,9 +11,9 @@
 }
 
 #logo {
-  opacity: 0.85;
+  opacity: 0.9;
   height: 100%;
-  -webkit-filter: drop-shadow(0px 0px 5px #fff);
+  /*-webkit-filter: drop-shadow(0px 0px 5px #fff);*/
 }
 
 #footer {
@@ -41,7 +41,7 @@ body {
 }
 
 .ESA {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Karla', cursive;
   position: fixed;
   width: 70%; /* Set your desired with */
   z-index: 2; /* Make sure its above other items. */
@@ -73,12 +73,12 @@ body {
   height: 100%;
   width: 100%;
   background: rgba(255,255,255,0.90);
-  border-radius: 1px;
+  border-radius: 5px;
   overflow:auto;
 }
 
 .subcontent h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Karla', cursive;
   padding-top: 10px;
   color: #009574;
   -webkit-filter: drop-shadow(3px 3px 10px #FFF);
@@ -98,21 +98,21 @@ body {
 }
 
 .sidenav {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Karla', cursive;
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.90);
+  background: rgba(0,0,0,0.93);
   overflow-x: hidden;
   transition: 0.2s;
   padding-top: 60px;
   opacity: 0.8;
 }
 
-.sidenav a {
+.sidenav a.blocked{
   padding: 10px 0px 0px 32px;
   text-decoration: none;
   font-size: 26px;
@@ -121,23 +121,35 @@ body {
   transition: 0.2s;
 }
 
+
+
+
 .sidenav a:hover, .offcanvas a:focus{
   color: #f1f1f1;
 }
-
+.padleft {
+  padding-left: 20px;
+}
 .sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  text-decoration: none;
+  color: #818181;
+}
+.sidenav .sbs {
+  text-decoration: none;
+  font-size: 26px;
+  transition: 0.2s;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
   }
-  .sidenav a {
+  .sidenav a.blocked{
     font-size: 18px;
   }
 }

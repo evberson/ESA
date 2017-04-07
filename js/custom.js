@@ -24,7 +24,7 @@ function closeNav() {
 
 //Hides all of the div sections
 function hideAll(){
-  document.getElementById("landing").style.display ="none";
+  document.getElementById("landing").style.opacity = 0.0;
   document.getElementById("about").style.display ="none";
   document.getElementById("initiatives").style.display ="none";
   document.getElementById("eboard").style.display ="none";
@@ -32,6 +32,12 @@ function hideAll(){
   document.getElementById("members").style.display ="none";
   document.getElementById("newsletter").style.display ="none";
   document.getElementById("contact").style.display ="none";
+}
+
+function showHome(){
+  closeNav();
+  hideAll();
+  document.getElementById("landing").style.opacity = .9;
 }
 
 //Shows only the about div
