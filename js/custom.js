@@ -1,5 +1,7 @@
 //Selects a random background, with a double chance of hitting the owl because
 //I like the owl the best
+
+
 function loadBackground() {
   var numBackgrounds = 23;
   var num = Math.ceil( Math.random() * (numBackgrounds+1) );
