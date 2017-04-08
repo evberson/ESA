@@ -41,6 +41,16 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+  color: rgba(0,149,116, 0.95);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #818181;
+  text-decoration: underline;
+}
+
 .ESA {
   font-family: 'Karla', cursive;
   position: fixed;
@@ -334,3 +344,10 @@ body {
 .form-style-4 input[type=button]:hover{
     background: rgba(255,255,255, 0.70);
 }
+
+/*newsletter*/
+.entry-content p {
+    margin: 0;
+    padding: 0;
+}
+/*end newsletter */
