@@ -166,7 +166,7 @@ a:hover {
 }
 
 /* Initially hide all section divs */
-#about, #initiatives, #eboard, #partners, #members, #newsletter, #contact {
+#about, #initiatives, #eboard, #partners, #members, #newsletter, #contact, .grid{
   display: none;
 }
 
@@ -187,33 +187,33 @@ a:hover {
   -o-background-size: cover;*/
 }
 
-#eboard strong {
+.grid strong {
   font-weight: bold;
 }
 
-#eboard em {
+.grid em {
   padding-bottom:  10px;
 }
 
-#eboard h3 {
+.grid h3 {
   text-align: center;
   font-size: 1.65em;
   margin: 0 0 30px;
 }
 
-#eboard h2 {
+.grid h2 {
   margin:  0 0 10px;
   margin-bottom:  1px;
 }
 
-#eboard div {
+.grid div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /* or space-around */
   padding: 15px;
 }
 
-#eboard a {
+.grid a {
   display: inline-block;
   margin-bottom: 8px;
   width: calc(50% - 4px);
@@ -222,33 +222,33 @@ a:hover {
 }
 
 @media screen and (min-width: 50em) {
-  #eboard a {
+  .grid a {
     width: calc(25% - 6px);
   }
 }
 
-#eboard a:hover img {
+.grid a:hover img {
   transform: scale(1.06) rotate(-1deg);
   -ms-transform: scale(1.06) rotate(-1deg); /* IE 9 */
   -webkit-transform: scale(1.06) rotate(-1deg); /* Chrome, Safari, Opera */
 }
 
-#eboard figure {
+.grid figure {
   margin: 0;
   overflow: hidden;
 }
 
-#eboard figcaption {
+.grid figcaption {
   margin-top: 3px;
   text-align: left;
   z-index: 10;
 }
 
-#eboard h2 {
+.grid h2 {
   z-index: 100;
 }
 
-#eboard img {
+.grid img {
   z-index: -1;
   border: none;
   max-width: 100%;
@@ -258,7 +258,7 @@ a:hover {
   transition: transform .2s ease-in-out;
 }
 
-#eboard .p a {
+.grid .p a {
   display: inline;
   font-size: 13px;
   margin: 0;
@@ -266,7 +266,7 @@ a:hover {
   color: blue;
 }
 
-#eboard .p {
+.grid .p {
   text-align: center;
   font-size: 1.1em;
   padding-top: 100px;
