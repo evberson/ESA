@@ -37,6 +37,33 @@ footer .socialicon {
   opacity: 1;
 }
 
+.whiteboxed {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background: #009574;
+  drop-shadow: 0px 0px 0px #000;
+  -webkit-filter: drop-shadow(0px 0px 0px #000);
+  text-shadow: 0px 0px 0px #000;
+}
+
+.blackboxed {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  drop-shadow: 0px 0px 0px #000;
+  -webkit-filter: drop-shadow(0px 0px 0px #000);
+  text-shadow: 0px 0px 0px #000;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -248,6 +275,17 @@ a:hover {
   z-index: 100;
 }
 
+.partimg {
+   border-radius: 15px;
+   width: 50%;
+   height: auto;
+ }
+
+#members figcaption {
+  text-align: center;
+  padding-bottom: 13px;
+}
+
 .grid img {
   z-index: -1;
   border: none;
@@ -396,7 +434,7 @@ a:hover {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-  .col { 
+  .col {
     margin: 1% 0 1% 0%;
   }
 }
