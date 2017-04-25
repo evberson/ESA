@@ -192,7 +192,7 @@ a:hover {
 }
 
 /* Initially hide all section divs */
-#about, #initiatives, #eboard, #partners, #members, #newsletter, #contact, .grid{
+#about, #initiatives, #eboard, #partners, #members, #newsletter, #contact{
   display: none;
 }
 
