@@ -109,7 +109,7 @@ a:hover {
 .subcontent {
   height: 100%;
   width: 100%;
-  background: rgba(255,255,255,0.80);
+  background: rgba(255,255,255,0.85);
   border-radius: 5px;
   overflow:auto;
 }
@@ -312,7 +312,7 @@ a:hover {
 .form-style-4{
     width: 65%;
     font-size: 1em;
-    background: rgba(0,149,116,0.80);
+    background: rgba(0,149,116,0.9);
     padding: 30px 30px 15px 30px;
     border-radius: 5px;
 }
