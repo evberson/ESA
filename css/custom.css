@@ -41,7 +41,7 @@ footer .socialicon {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
-  background: #009574;
+  background: rgba(0,149,116, 0.0);
   drop-shadow: 0px 0px 0px #000;
   -webkit-filter: drop-shadow(0px 0px 0px #000);
   text-shadow: 0px 0px 0px #000;
@@ -110,7 +110,7 @@ a:hover {
 .subcontent {
   height: 100%;
   width: 100%;
-  background: rgba(255,255,255,0.90);
+  background: rgba(255,255,255,0.80);
   border-radius: 5px;
   overflow:auto;
 }
@@ -118,7 +118,7 @@ a:hover {
 .subcontent h1 {
   font-family: 'Karla', cursive;
   padding-top: 10px;
-  color: #009574;
+  color: black;
   -webkit-filter: drop-shadow(3px 3px 10px #FFF);
   text-shadow: 0px 0px 6px #FFF;
   font-size: 4em;
@@ -254,7 +254,7 @@ a:hover {
   }
 }
 
-#members a:hover img {
+#none a:hover img {
   transform: scale(1.06) rotate(-1deg);
   -ms-transform: scale(1.06) rotate(-1deg); /* IE 9 */
   -webkit-transform: scale(1.06) rotate(-1deg); /* Chrome, Safari, Opera */
@@ -314,7 +314,7 @@ a:hover {
 .form-style-4{
     width: 65%;
     font-size: 1em;
-    background: #009574;
+    background: rgba(0,149,116,0.80);
     padding: 30px 30px 15px 30px;
     border-radius: 5px;
 }
@@ -394,11 +394,9 @@ a:hover {
 
 /*  SECTIONS  */
 #partners a{
-  color: #ffffff;
 }
 
 #partners a h3 {
-  color: #000000;
   font-weight: bold;
 }
 
@@ -406,7 +404,7 @@ a:hover {
   clear: both;
   padding: 20px;
   margin: 30px;
-  background-color: rgba(0,149,116,.8);
+  background-color: rgba(0,149,116,0.1);
 }
 
 /*  COLUMN SETUP  */
