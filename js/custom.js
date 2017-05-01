@@ -34,6 +34,7 @@ function hideAll(){
   document.getElementById("members").style.display ="none";
   document.getElementById("newsletter").style.display ="none";
   document.getElementById("contact").style.display ="none";
+  document.getElementById("events").style.display ="none";
 }
 
 function showHome(){
@@ -89,6 +90,13 @@ function showContact(){
   closeNav();
   hideAll();
   document.getElementById("contact").style.display ="block";
+}
+
+//Shows only the events div
+function showEvents(){
+  closeNav();
+  hideAll();
+  document.getElementById("events").style.display ="block";
 }
 
 //Removes the preloader screen upon full page load
