@@ -1,5 +1,5 @@
 # ESA
-ESA Website
+ESA Website Maintainence Instructions for ESA Board
 
 If you know how to use git, feel free to clone the repository and edit it on your machine. 
 
