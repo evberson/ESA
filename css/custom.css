@@ -109,7 +109,7 @@ a:hover {
 .subcontent {
   height: 100%;
   width: 100%;
-  background: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.95);
   border-radius: 5px;
   overflow:auto;
 }
