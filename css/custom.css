@@ -2,7 +2,7 @@
   font-family: 'Oswald', sans-serif;
   font-weight: bolder;
   -webkit-filter: drop-shadow(0px 0px 4px #000);
-  font-size: 3em;
+  font-size: 4em;
   cursor: pointer;
   padding-left: 20px;
   color: #fff;
@@ -116,11 +116,11 @@ a:hover {
 
 .subcontent h1 {
   font-family: 'Oswald', sans-serif;
-  padding-top: 10px;
+  padding-top: 5px;
   color: black;
   -webkit-filter: drop-shadow(3px 3px 10px #FFF);
   text-shadow: 0px 0px 6px #FFF;
-  font-size: 4em;
+  font-size: 3em;
   border-bottom: rgba(0,255,255,0.90);
 }
 

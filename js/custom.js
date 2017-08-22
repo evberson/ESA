@@ -114,3 +114,16 @@ function adjust_textarea(h) {
   h.style.height = "20px";
   h.style.height = (h.scrollHeight)+"px";
 }
+
+var width = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var height = window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
+document.getElementById("iframefb").src = "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2Fuscesa%2Fevents%2F&tabs=events%2C%20timeline&width="+ Math.floor(Math.min(width*.75,500)) +"&height="+ Math.floor(height*.5) +"&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1345235075557715";
+
+document.getElementById("iframefb").style.width = Math.min(width*.75,500);
+document.getElementById("iframefb").style.height = height*.5;
