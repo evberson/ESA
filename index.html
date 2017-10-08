@@ -22,16 +22,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet">
   <!-- MiniPreview stuff here -->
-  <link href="./jquery.minipreview.css" rel="stylesheet">
-  <script src="./jquery.minipreview.js"></script>
-  <script type="text/javascript">
-  $(function() {
-    // to be discussed later
-    //$('#members a').miniPreview({ prefetch: 'pageload' });
-    $('#newsletter a').miniPreview({ prefetch: 'none' });
-    // prefetch: 'none' or 'parenthover'
-  });
-  </script> <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+   <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
 </head>
 <!-- end link previews -->
 
@@ -967,6 +958,14 @@
               </div>
             </div>
           </div>
+          <script type="text/javascript">
+  $(function() {
+    // to be discussed later
+    $('#partners a').miniPreview({ prefetch: 'none' });
+    $('#newsletter a').miniPreview({ prefetch: 'none' });
+    // prefetch: 'none' or 'parenthover'
+  });
+  </script>
         </body>
         <!-- Include at end of file -->
         <script src="js/custom.js"></script>
