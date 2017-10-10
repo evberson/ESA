@@ -33,7 +33,7 @@ function hideAll(){
   document.getElementById("newsletter").style.display ="none";
   document.getElementById("contact").style.display ="none";
   document.getElementById("events").style.display ="none";
-   document.getElementById("applications").style.display ="none";
+  document.getElementById("applications").style.display ="none";
 }
 
 function showHome(){
