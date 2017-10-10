@@ -33,6 +33,7 @@ function hideAll(){
   document.getElementById("newsletter").style.display ="none";
   document.getElementById("contact").style.display ="none";
   document.getElementById("events").style.display ="none";
+   document.getElementById("applications").style.display ="none";
 }
 
 function showHome(){
@@ -53,6 +54,14 @@ function showInitiatives(){
   closeNav();
   hideAll();
   document.getElementById("initiatives").style.display ="block";
+}
+
+
+//Shows only the applications div
+function showApplications(){
+  closeNav();
+  hideAll();
+  document.getElementById("applications").style.display ="block";
 }
 
 //Shows only the eboard div
