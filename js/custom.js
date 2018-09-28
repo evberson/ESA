@@ -28,6 +28,7 @@ function hideAll(){
   document.getElementById("about").style.display ="none";
   document.getElementById("initiatives").style.display ="none";
   document.getElementById("eboard").style.display ="none";
+  document.getElementById("membership").style.display ="none";
   document.getElementById("partners").style.display ="none";
   document.getElementById("members").style.display ="none";
   document.getElementById("newsletter").style.display ="none";
@@ -69,6 +70,14 @@ function showEBoard(){
   closeNav();
   hideAll();
   document.getElementById("eboard").style.display ="block";
+}
+
+
+//Shows only the membership div
+function showMembership(){
+  closeNav();
+  hideAll();
+  document.getElementById("membership").style.display ="block";
 }
 
 //Shows only the partners div
