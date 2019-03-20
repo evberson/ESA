@@ -1,5 +1,5 @@
 #navbars {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', serif;
   font-weight: bolder;
   -webkit-filter: drop-shadow(0px 0px 4px #000);
   font-size: 4em;
@@ -96,7 +96,7 @@ a:hover {
   position: fixed;
   width: 70%; /* Set your desired with */
   z-index: 2; /* Make sure its above other items. */
-  height: 75%;
+  height: 85%;
   top: 30%;
   left: 50%;
   margin-top: -10%; /* Changes with height. */
@@ -115,7 +115,7 @@ a:hover {
 }
 
 .subcontent h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', serif;
   padding-top: 5px;
   color: black;
   -webkit-filter: drop-shadow(3px 3px 10px #FFF);
@@ -134,8 +134,9 @@ a:hover {
   text-shadow: 0px 0px 6px #FFF;
 }
 
+
 .sidenav {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', serif;
   height: 100%;
   width: 0;
   position: fixed;
@@ -425,6 +426,19 @@ a:hover {
 }
 .span_1_of_2 {
   width: 45.2%;
+}
+
+.rotate-270 {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+
+}
+
+#background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */

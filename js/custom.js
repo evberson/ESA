@@ -1,13 +1,14 @@
 //Selects a random background, with a double chance of hitting the owl because
 //the owl is the best
+
 function loadBackground() {
-  var numBackgrounds = 23;
-  var num = Math.ceil( Math.random() * (numBackgrounds+1) );
-  if(num > numBackgrounds){
-    num = 15;
-  }
-  document.body.background = 'images/bg/img'+num+'.jpg';
-  document.body.style.backgroundSize = "cover";// Background repeat
+  // var numBackgrounds = 23;
+  // var num = Math.ceil( Math.random() * (numBackgrounds+1) );
+  // if(num > numBackgrounds){
+  //   num = 15;
+  // }
+  //document.body.background = 'images/bg/img'+num+'.jpg';
+  //document.body.style.backgroundSize = "cover";// Background repeat
 }
 
 //Opens navigation bar
